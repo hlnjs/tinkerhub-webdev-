@@ -7,10 +7,10 @@ h1{
     font-style: italic;
     text-align: center;
 }
-.div{background-color: black;
-align-items:center ;
+ .div{background-color: black;
+/* align-items:center ; */
 justify-content: center;
-display: flex;
+display: flex; 
 }
 button{
     margin: 5px;
