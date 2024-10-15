@@ -12,7 +12,7 @@ h1{
 justify-content: center;
 display: flex; 
 }
-button{
+.firstbutton{
     margin: 5px;
     padding:5px 10px;
     top: 20px;
@@ -21,6 +21,16 @@ button{
     border: 3px dotted seagreen;
 
 }
-button:hover{
+/* button:hover{
     background-color: brown;
-color: blueviolet;}
+color: blueviolet;} */
+.secondbuttonJS{
+    color: black;
+    background-color: aqua;
+}
+.secondbutton{ margin: 30px;
+padding:5px 10 px;
+background-color: black;
+color:blue;
+border-radius: 18px;
+}

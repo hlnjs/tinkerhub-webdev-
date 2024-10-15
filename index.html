@@ -13,36 +13,20 @@
                 Main DIV
             </h1>
             <div class="div">
-                 <button onclick=" myFunc('param1')">
+                 <button class="firstbutton" onclick=" myFunc('param1')">
                     click
                 </button>
-             </div>    
-        <d/iv>          
-     <script>
-            // console.log("Hello MEC")
-            // let x=5;
-            // console.log(x);
-            // x=10;
-            // console.log(x);
-            // const y=12;
-            // console.log(y);
-            // x="HEllo";
-            // console.log(x)
+             </div> 
+             <div class="div2">
+                <button class="secondbutton secondbuttonJS" id="secondbutton" onclick="changeButton()">
+                    subscribe
+                </button>
 
-            // if(8>9){
-            //     console.log(1)
-            // }
-            // else{
-            //     console.log(0)
-            // }
-            let count=0;
-            let count2=2;
-            function myFunc(param1){
-                count=count+count2;
-                console.log ( `Hello ${param1}. Your count is: ${count}. Yourre welcome`)
+             </div>   
+        </div>       
 
-            }
-            // myFunc()
+     <script
+            src="scripts.js"></script>
         </script>
     </body>
 </html>
