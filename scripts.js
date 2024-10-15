@@ -30,7 +30,7 @@ function changeButton(){
     if (document.querySelector('.secondbutton').innerText==="subscribe"){
         document.getElementById('secondbutton').innerText="subscribed";
         document.querySelector('.secondbutton').classList.remove('secondbutton');
-        document.querySelector('.secondbutton').classList.add('secondbuttonJS';)
+        document.querySelector('.secondbutton').classList.add('secondbuttonJS');
 
     }
     else{
