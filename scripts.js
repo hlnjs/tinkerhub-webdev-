@@ -18,7 +18,7 @@
             let count2=2;
             function myFunc(param1){
                 count=count+count2;
-                console.log ( `Hello ${param1}. Your count is: ${count}. Yourre welcome`)
+                console.log ( `Hello ${param1}. Your count is: ${count}. Yourre\n welcome`)
 
             }
 
@@ -40,3 +40,22 @@ function changeButton(){
 
     }
 }
+class  Car{
+    brand="HONDA";
+    color="BLUE";
+    price=1200;
+   
+}
+// Car.brand="honda";
+// console.log(Car.brand)
+let car1=new Car()
+
+let x=JSON.stringify(car1);
+let y=JSON.parse(x);
+
+
+
+console.log(x);
+console.log(y);
+// Window.document.body.innerHTML
+
